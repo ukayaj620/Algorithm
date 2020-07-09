@@ -47,7 +47,7 @@ int main ()
 	printf("Input number that you want to find?");
 	scanf("%d", &find);
 	
-	int position = binarySearch(arr, 0, size - 1, 10); 
+	int position = binarySearch(arr, 0, size - 1, find); 
     if (position == -1) 
 		printf("Element is not present in array");
 	else
